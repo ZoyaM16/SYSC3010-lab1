@@ -20,7 +20,7 @@ white = (255, 255, 255)
 
 
 def show_z():
-  sense.show_letter("Z", back_colour = red)
+  sense.show_letter("O", back_colour = blue)
   time.sleep(.5)
 
 def show_m():
@@ -39,31 +39,31 @@ while True:
            show_z()
            sense.show_letter("M") 
         else:
-            sense.show_letter("Z") 
+            sense.show_letter("O") 
           
               
       elif event.direction == "down":
         if sense.show_letter:
            show_z()
-           sense.show_letter("L") 
+           sense.show_letter("M") 
         else:
-            sense.show_letter("Z")      # Down arrow
+            sense.show_letter("O")      # Down arrow
       elif event.direction == "left": 
         if sense.show_letter:
           show_z() 
           sense.show_letter("M") 
         else:
-            sense.show_letter("Z")     # Left arrow
+            sense.show_letter("O")     # Left arrow
       elif event.direction == "right":
         if sense.show_letter:
            show_z()
            sense.show_letter("M") 
         else:
-            sense.show_letter("Z")     # Right arrow
+            sense.show_letter("O")     # Right arrow
       elif event.direction == "middle":
        if sense.show_letter:
           show_z()
           sense.show_letter("M") 
        else:
-            sense.show_letter("Z")     # Enter key
+            sense.show_letter("O")     # Enter key
 
