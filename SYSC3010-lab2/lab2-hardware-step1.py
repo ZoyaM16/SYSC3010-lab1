@@ -45,7 +45,7 @@ while True:
       elif event.direction == "down":
         if sense.show_letter:
            show_z()
-           sense.show_letter("M") 
+           sense.show_letter("L") 
         else:
             sense.show_letter("Z")      # Down arrow
       elif event.direction == "left": 
